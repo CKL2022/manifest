@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+		<remote fetch="https://github.com/CKL2022/" name="CKL2022"/>
+		<default revision="master" remote="CKL2022" />
+
+
+
+
+  <project name="fsl-community-bsp-base" path="sources/base">
+    <linkfile dest="README" src="README"/>
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project name="meta-browser" path="sources/meta-browser"/>
+  <project name="meta-clang" path="sources/meta-clang"/>
+  <project name="meta-freescale" path="sources/meta-freescale"/>
+  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+
+  <project name="meta-imx" path="sources/meta-imx">
+    <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
+    <linkfile dest="README-IMXBSP" src="README"/>
+  </project>
+
+  <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project name="meta-qt6" path="sources/meta-qt6"/>
+  <project name="meta-timesys" path="sources/meta-timesys"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization"/>
+  <project name="poky" path="sources/poky"/>
+</manifest>
