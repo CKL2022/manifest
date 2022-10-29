@@ -7,7 +7,7 @@
 
 
 
-  <project name="fsl-community-bsp-base" path="sources/base">
+  <project name="base" path="sources/base">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
